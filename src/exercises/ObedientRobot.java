@@ -19,8 +19,6 @@ public class ObedientRobot {
 
 	private void drawCircle() {
 		set();
-		robot.penDown();
-		robot.setSpeed(10);
 		for (int i = 0; i < 360; i++) {
 			robot.turn(1);
 			robot.move(1);
@@ -30,8 +28,6 @@ public class ObedientRobot {
 
 	private void drawSqare() {
 		set();
-		robot.penDown();
-		robot.setSpeed(10);
 		for (int i = 0; i < 4; i++) {
 			robot.move(90);
 			robot.turn(90);
@@ -41,8 +37,6 @@ public class ObedientRobot {
 
 	private void drawTriangle() {
 		set();
-		robot.penDown();
-		robot.setSpeed(10);
 		for (int i = 0; i < 3; i++) {
 			robot.move(150);
 			robot.turn(120);
